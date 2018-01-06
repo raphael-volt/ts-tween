@@ -1,9 +1,16 @@
 {
   "name": "ts-tween",
   "version": "1.0.0",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp"
+  },
   "description": "Tween library",
   "main": "dist/index.js",
-  "scripts": {},
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raphael-volt/ts-tween.git"
@@ -16,5 +23,23 @@
   "bugs": {
     "url": "https://github.com/raphael-volt/ts-tween/issues"
   },
-  "homepage": "https://github.com/raphael-volt/ts-tween#readme"
+  "homepage": "https://github.com/raphael-volt/ts-tween#readme",
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.35",
+    "@types/jasmine": "^2.8.3",
+    "@types/node": "^8.5.7",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-jasmine": "^3.0.0",
+    "gulp-typescript": "^3.2.3",
+    "jasmine": "^2.8.0",
+    "merge2": "^1.2.0",
+    "rimraf": "^2.6.2",
+    "run-sequence": "^2.2.1",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  }
 }
