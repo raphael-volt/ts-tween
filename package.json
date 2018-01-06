@@ -1,0 +1,20 @@
+{
+  "name": "ts-tween",
+  "version": "1.0.0",
+  "description": "Tween library",
+  "main": "dist/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphael-volt/ts-tween.git"
+  },
+  "keywords": [
+    "tween"
+  ],
+  "author": "raphael-volt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphael-volt/ts-tween/issues"
+  },
+  "homepage": "https://github.com/raphael-volt/ts-tween#readme"
+}
